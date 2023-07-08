@@ -22,7 +22,7 @@ function obtenerSignoZodiacal(dia, mes) {
             (mes === signo.inicio.mes && dia >= signo.inicio.dia) ||
             (mes === signo.fin.mes && dia <= signo.fin.dia)
         ) {
-            return "Tu signo es " + signo.nombre + " " + nombre;
+            return "Tu signo es, " + signo.nombre + " " + nombre;
         }
     }
 
